@@ -1,0 +1,10 @@
+version: "3.0"
+
+services:
+  ff_pwa_unauth:
+    container_name: ff_pwa_unauth
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src
