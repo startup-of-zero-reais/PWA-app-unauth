@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--color);
+    height: 50px;
+}
+
+.container p {
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+}
