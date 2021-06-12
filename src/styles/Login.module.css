@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+    position: relative;
+}
+
+.container h1 {
+    font-size: 46px;
+    font-weight: 700;
+    color: var(--purple-400);
+    margin-bottom: var(--spacing-xl);
+    text-align: center;
+
+}
+
+.container h6 {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--purple-400);
+}
+ 
+
+
+.wrapperInputAndButton {
+    display: flex;
+    flex:1;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapperInputAndButton  > div ~ div{ 
+    margin-top: var(--spacing-sm);
+}
+
+.spotOne { 
+    position: absolute;
+    top:-10%;
+    left: -10px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.spotTwo { 
+    position: absolute;
+    bottom:0;
+    right: 0;
+    z-index: -1;
+}
+
+.containerSocials{ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex:0.4;    
+    column-gap: var(--spacing-md);
+}
