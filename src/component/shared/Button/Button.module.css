@@ -2,13 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: var(--size-sm1);
     background: var(--color);
-    height: 50px;
+    height: var(--size-xl1);
 }
 
 .container p {
-    font-size: 18px;
+    font-size: var(--size-md);
     color: white;
     text-transform: capitalize;
 }
