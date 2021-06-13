@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--size-sm1);
+    background: var(--color);
+    height: var(--size-xl1);
+}
+
+.container p {
+    font-size: var(--size-md);
+    color: white;
+    text-transform: capitalize;
+}
